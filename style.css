@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+}
+header {
+  width: 100%;
+  height: 70px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 50px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.decore {
+  width: 1px;
+  height: 20px;
+  background-color: #000;
+}
+.section-main {
+  width: 100%;
+  height: auto;
+  padding: 30px 180px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+.section-up,
+.section-down {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.section-up h1 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/43px var(--unnamed-font-family-brandon-grotesque);
+  color: var(--unnamed-color-262626);
+  text-align: left;
+  font: normal normal bold 30px/43px Brandon Grotesque;
+  letter-spacing: 9px;
+  color: #262626;
+}
+.section-up P {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 32.7px/48.6px var(--unnamed-font-family-tisa-ot);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-262626);
+  text-align: left;
+  font: normal normal normal 33px/49px Tisa OT;
+  letter-spacing: 0px;
+  color: #262626;
+}
+.section-down h1 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-brandon-grotesque);
+  letter-spacing: var(--unnamed-character-spacing-5);
+  color: var(--unnamed-color-111111);
+  text-align: left;
+  font: normal normal bold 25px/30px Brandon Grotesque;
+  letter-spacing: 5px;
+  color: #111111;
+}
+.section-down p {
+  width: 512px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-44) var(--unnamed-font-family-tisa-ot);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-262626);
+  text-align: left;
+  font: normal normal normal 25px/44px Tisa OT;
+  letter-spacing: 0px;
+  color: #262626;
+}
